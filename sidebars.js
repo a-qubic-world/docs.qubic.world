@@ -25,6 +25,7 @@ const sidebars = {
         // Add more document references here
       ],
     },
+  ],
 
   // But you can create a sidebar manually
   /*
