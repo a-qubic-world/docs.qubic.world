@@ -44,6 +44,14 @@ const config = {
           editUrl:
             'https://github.com/a-qubic-world/docs.qubic.world',
         },
+        learn: {
+          path: 'learn',
+          routeBasePath: 'learn',
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/a-qubic-world/docs/learn/',
+        },
+        
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -71,11 +79,26 @@ const config = {
         },
         items: [
           {
+            label: 'Learn',
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'learnSidebar',
             position: 'left',
-            label: 'Tutorial',
           },
+          /*
+          {
+            label: 'Computors',
+            type: 'doc',
+            sidebarId: 'tutorialSidebar',
+            docId: 'getting-started',
+            position: 'left',
+          },
+          {
+            label: 'API',
+            type: 'doc',
+            docId: 'api',
+            position: 'left',
+          },
+          */
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/a-qubic-world',
