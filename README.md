@@ -1,41 +1,19 @@
-# Website
+# Qubic Docs Readme
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Qubic's Docs are built using [Docusaurus 2](https://docusaurus.io/) with `pnpm`.
 
-### Installation
+## Local Development
 
-```
-$ yarn
-```
+To set up the Qubic Docs site locally:
 
-### Local Development
+- copy the repo using `git clone git@github.com:a-qubic-world/docs.qubic.world.git`
+- install dependencies using `pnpm install`
+- make your changes and updates as needed
+- run the local development server using `pnpm start` to test site
+- build locally via `pnpm build`
 
-```
-$ yarn start
-```
+> Note: After cloning the repo to your local machine, all the local development commands are run from within this `docs.qubic.world` directory.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Deployment
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+For deployment a push to github is sufficient. A build via netlify is automatically initiated. If the build succeeds, the project is deploayed to the qubic.world server.
