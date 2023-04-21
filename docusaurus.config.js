@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Qubic Documentation',
+  title: 'Qubic Docs',
   tagline: 'Learn everything about Qubic you need to know.',
   favicon: 'img/favicon.ico',
 
@@ -113,7 +113,7 @@ const config = {
             items: [
               {
                 label: 'Learn',
-                to: '/docs/learn/intro',
+                to: '/learn/intro',
               },
             ],
           },
