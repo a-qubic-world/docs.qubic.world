@@ -21,24 +21,41 @@ const sidebars = {
       type: 'category',
       label: 'Learn',
       items: [
+        'learn/intro',
         'learn/test',
         // Add more document references here
       ],
     },
   ],
-
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
+  compSidebar: [
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Computor',
+      items: [
+        'computors/computors',
+        'computors/bm',
+      ],
     },
   ],
-   */
+  devSidebar: [
+    {
+      type: 'category',
+      label: 'Developers',
+      items: [
+        'developers/intro',
+      ],
+    },
+  ],
+  apiSidebar: [
+    {
+      type: 'category',
+      label: 'API',
+      items: [
+        'api/api',
+        // Add more document references here
+      ],
+    },
+  ],
 };
 
 module.exports = sidebars;
