@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Hi!'
+sidebar_label: 'Test!'
 sidebar_position: 1
 ---
 
-# Hello
+# Test
 
 This is my **first Docusaurus document**!
