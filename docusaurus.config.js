@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'qubic docs',
-  tagline: 'a qubic world documentation',
+  title: 'Qubic Documentation',
+  tagline: 'Learn everything about Qubic you need to know.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -39,19 +39,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/', // change routeBasePath to '/'
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/a-qubic-world/docs.qubic.world',
         },
-        learn: {
-          path: 'learn',
-          routeBasePath: 'learn',
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/a-qubic-world/docs/learn/',
-        },
-        
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -72,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'docs.qubic.world',
+        title: 'Qubic Documentation',
         logo: {
           alt: 'qubic world Logo',
           src: 'img/logo.svg',
@@ -84,21 +77,26 @@ const config = {
             sidebarId: 'learnSidebar',
             position: 'left',
           },
-          /*
           {
             label: 'Computors',
-            type: 'doc',
-            sidebarId: 'tutorialSidebar',
-            docId: 'getting-started',
+            type: 'docSidebar',
+            sidebarId: 'compSidebar',
+            position: 'left',
+          },
+          {
+            label: 'Developers',
+            type: 'docSidebar',
+            sidebarId: 'devSidebar',
             position: 'left',
           },
           {
             label: 'API',
-            type: 'doc',
+            type: 'docSidebar',
+            sidebarId: 'apiSidebar',
             docId: 'api',
             position: 'left',
           },
-          */
+          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/a-qubic-world',
@@ -111,11 +109,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Learn',
+                to: '/docs/learn/intro',
               },
             ],
           },
@@ -150,7 +148,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} a.qubic.world`,
+        copyright: `Copyright © ${new Date().getFullYear()} qubic.world`,
       },
       prism: {
         theme: lightCodeTheme,
