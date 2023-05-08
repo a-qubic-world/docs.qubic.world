@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Qubic'
+sidebar_label: 'What is Qubic?'
 sidebar_position: 1
 ---
 
