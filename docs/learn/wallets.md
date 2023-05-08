@@ -11,8 +11,8 @@ In Qubic we currently have two main types of Wallets.
 ## Overview
 |  Type 	|  Advantages 	|  Disadvantages 	|  Wallets 	|
 |---	|---	|---	|---	|
-|  Direct 	|  - Most plain without any 3rd party SW <br> - Mostly Open Source |  - More dificult to handle. <br> - Need to have direct connection to Qubic Peers 	|   https://github.com/computor-tools/qubic-js (Alpha)	|
-|  Proxied 	|  - Easy to handle <br> - Runs everywhere without direct connection to the network 	|  - Server-Part of Software must not be Open Source <br> - if the proxy service is offline, you can't interact with the network 	|  https://wallet.qubic.li (Beta)	|
+|  Direct 	|  - Most plain without any 3rd party SW <br /> - Mostly Open Source |  - More dificult to handle. <br /> - Need to have direct connection to Qubic Peers 	|   https://github.com/computor-tools/qubic-js (Alpha)	|
+|  Proxied 	|  - Easy to handle <br /> - Runs everywhere without direct connection to the network 	|  - Server-Part of Software must not be Open Source <br /> - if the proxy service is offline, you can't interact with the network 	|  https://wallet.qubic.li (Beta)	|
 
 
 ## Direct Network Connected Wallet
