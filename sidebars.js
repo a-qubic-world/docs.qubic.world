@@ -38,6 +38,7 @@ const sidebars = {
       type: 'category',
       label: 'Basics',
       items: [
+        'learn/computor', 
         'learn/spectrum',
         'learn/quorum',
         'learn/cryptography',
