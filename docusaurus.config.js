@@ -67,6 +67,12 @@ const config = {
         },
         items: [
           {
+            label: 'Overview',
+            type: 'docSidebar',
+            sidebarId: 'overviewSidebar',
+            position: 'left',
+          },
+          {
             label: 'Learn',
             type: 'docSidebar',
             sidebarId: 'learnSidebar',
@@ -107,8 +113,24 @@ const config = {
             title: 'Documentation',
             items: [
               {
+                label: 'Overview',
+                to: '/overview/introduction',
+              },
+              {
                 label: 'Learn',
-                to: '/learn/intro',
+                to: '/learn',
+              },
+              {
+                label: 'Computors',
+                to: '/computors/prerequisites',
+              },
+              {
+                label: 'Developers',
+                to: '/developers/intro',
+              },
+              {
+                label: 'API',
+                to: '/api/blocks',
               },
             ],
           },
