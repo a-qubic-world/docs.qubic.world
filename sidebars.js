@@ -29,11 +29,7 @@ const sidebars = {
     },
   ],
   learnSidebar: [
-    {
-      type: "link",
-      href: "/learn",
-      label: "Learn",
-    },
+    'learn/overview',
     {
       type: 'category',
       label: 'Basics',
