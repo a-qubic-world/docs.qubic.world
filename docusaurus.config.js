@@ -118,7 +118,7 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: '/learn',
+                to: '/learn/overview',
               },
               {
                 label: 'Computors',
