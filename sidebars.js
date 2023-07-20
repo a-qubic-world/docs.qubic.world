@@ -48,7 +48,7 @@ const sidebars = {
       type: 'category',
       label: 'Mining',
       items: [
-        'learn/pouw',
+        'learn/upow',
         'learn/hw',
         'learn/sw',
         'learn/pool',
