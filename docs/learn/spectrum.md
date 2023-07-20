@@ -2,12 +2,24 @@
 sidebar_label: 'Spectrum'
 ---
 
-# Spectrum
+# Spectrum: The Ledger of Qubic
 
-In the context of the Qubic network, the "Spectrum" refers to its distributed ledger where all the transaction data is stored. The term is equivalent to what is commonly referred to as the "blockchain" in other digital currency networks. However, the use of a different term signifies Qubic's divergence from traditional blockchain architecture.
+## Understanding the Spectrum
+In the Qubic universe, "Spectrum" signifies a critical, decentralized ledger system that preserves a transparent and tamper-proof transaction history for each epoch. Serving as an open record, Spectrum presents a sequential record of every transaction conducted within the Qubic network per epoch.
 
-Much like a blockchain, the Spectrum records all transactions made within the network. It holds the complete transaction history and the state of every smart contract executed. However, instead of being organized into blocks and chained together sequentially, the Spectrum's structure aligns with Qubic's unique protocol.
+Consider the Spectrum as a digital, transparent ledger that is accessible to anyone. This ledger meticulously logs the transaction history of each epoch in the Qubic network.
 
-Computors in the Qubic network process transactions and maintain the Spectrum. This process includes executing transactions, running smart contracts, and updating the state of the Spectrum. To incentivize this, Computors receive rewards in the form of Qubic's native token, QU, for their role in maintaining the Spectrum.
+## Operation
+Logging Transactions: When a transaction is executed, it is recorded as a new entry in Spectrum. Detailed information such as the sender's and receiver's addresses and the transferred amount is logged.
 
-Essentially, the Spectrum is the backbone of the Qubic network, ensuring transparency, security, and the accurate state of all data related to transactions and contracts within the system.
+Immutable Records: Upon a transaction's recording in an epoch, it cannot be altered. This immutable nature of Spectrum ensures the accuracy and security of the network's transaction history.
+
+## Accessibility
+The spectrum can be accessed and reviewed by ... TBD
+
+## Security and Decentralization
+Spectrum's decentralized structure ensures that control is not vested in a single entity. Instead, the spectrum is distributed across all Computors. This decentralization bolsters the resistance of the Spectrum to censorship and fraudulent attempts. Alterations to Spectrum would necessitate the consensus of the majority of Computors, making it practically impossible.
+
+
+## Overview
+The Spectrum, as the clear and unalterable ledger within the Qubic network, maintains a comprehensive log of transactions executed in the network per epoch. With decentralized nodes managing its consensus, the Spectrum underscores its transparency, security, and decentralization. These characteristics solidify it as a core component of the Qubic network, fostering trust and transparency for users across the globe.
