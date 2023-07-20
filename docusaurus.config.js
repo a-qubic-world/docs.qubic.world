@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Qubic Docs',
   tagline: 'Learn everything about Qubic you need to know.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/qubic-li-cube.ico',
 
   // Set the production url of your site here
   url: 'https://docs.qubic.world',
@@ -58,12 +58,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/qubic-li-cube.svg',
       navbar: {
         title: 'Qubic Documentation',
         logo: {
-          alt: 'qubic world Logo',
-          src: 'img/logo.svg',
+          alt: 'Qubic Logo',
+          src: 'img/qubic-li-cube.svg',
         },
         items: [
           {
