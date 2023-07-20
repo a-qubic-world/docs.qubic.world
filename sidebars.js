@@ -24,16 +24,20 @@ const sidebars = {
         'overview/introduction',
         'overview/overview',
         'overview/key-features',
+        'overview/consensus',
+        'overview/whitepaper',
         'overview/disclaimer'
       ],
     },
-  ],
+],
   learnSidebar: [
     'learn/overview',
     {
       type: 'category',
       label: 'Basics',
       items: [
+        'learn/terminology',
+        'learn/tokenomics',
         'learn/computor', 
         'learn/spectrum',
         'learn/quorum',
