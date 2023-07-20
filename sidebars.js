@@ -32,11 +32,11 @@ const sidebars = {
 ],
   learnSidebar: [
     'learn/overview',
+    'learn/glossary',
     {
       type: 'category',
       label: 'Basics',
       items: [
-        'learn/terminology',
         'learn/tokenomics',
         'learn/computor', 
         'learn/spectrum',
@@ -72,8 +72,7 @@ const sidebars = {
         'learn/features',
         'learn/releases',
       ],
-    },
-    'learn/glossary',
+    }
   ],
   
   compSidebar: [
