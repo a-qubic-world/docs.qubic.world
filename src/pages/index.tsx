@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Learn everything about Qubic you need to know.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
