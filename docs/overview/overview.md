@@ -25,7 +25,3 @@ Qubic distinguishes itself from other blockchain solutions with its unique combi
 The decentralized nature of Qubic ensures that no single entity can control or manipulate the network, fostering trust and collaboration among participants. Its smart contract functionality enables the automation of complex processes while reducing the need for intermediaries, promoting transparency and reducing costs. Moreover, the support for DApps allows developers to create and deploy a wide range of applications tailored to specific use cases, driving innovation and the adoption of blockchain technology.
 
 By providing a comprehensive and robust solution, Qubic stands out as a superior option for those looking to harness the potential of blockchain technology.
-
-## What Qubic is not
-
-TBD: Maybe it makes sense to avoid confusion (aka "Ethereum Killer" yes or no?)
