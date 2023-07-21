@@ -67,6 +67,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Advanced Concepts',
+      items: [
+        'learn/smart-contracts',
+        'learn/ipo',
+      ],
+    },
+    {
+      type: 'category',
       label: 'How to buy',
       items: [
         'learn/exchanges',
