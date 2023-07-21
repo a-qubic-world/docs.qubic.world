@@ -29,7 +29,7 @@ const sidebars = {
         'overview/disclaimer'
       ],
     },
-],
+  ],
   learnSidebar: [
     'learn/overview',
     'learn/glossary',
@@ -40,8 +40,19 @@ const sidebars = {
         'learn/tokenomics',
         'learn/computor', 
         'learn/spectrum',
-        'learn/quorum',
         'learn/cryptography',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Governance',
+      items: [
+        'learn/quorum',
+        'learn/arbitrator',
+        'learn/proposals',
+        'learn/decision-making',
+        'learn/dispute-resolution',
+        'learn/updates-changes',
       ],
     },
     {
