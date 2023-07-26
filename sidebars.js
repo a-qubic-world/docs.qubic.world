@@ -71,6 +71,7 @@ const sidebars = {
       items: [
         'learn/smart-contracts',
         'learn/ipo',
+        'learn/dutch-auction',
       ],
     },
     {
