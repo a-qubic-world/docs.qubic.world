@@ -4,7 +4,7 @@ sidebar_label: 'Tokenomics'
 
 # Qubic Tokenomics
 
-In the world of Qubic, the utility token driving the ecosystem is not a mere currency but an 'energy' unit. These units, known as Qubic Units (Qus), serve as the fuel for executing smart contracts and accessing other services on the Qubic platform. Unlike traditional monetary units, Qus are burned when used, which is a fundamental concept in understanding the unique tokenomics of Qubic.
+In the world of Qubic, the utility token driving the ecosystem is not a mere currency but an 'energy' unit. These units, known as Qubic Units (QUs), serve as the fuel for executing smart contracts and accessing other services on the Qubic platform. Unlike traditional monetary units, Qus are burned when used, which is a fundamental concept in understanding the unique tokenomics of Qubic.
 
 ## Qubic Units (QUs)
 QUs act as a measurement of computational 'energy' spent on the Qubic platform. Whether it's running smart contracts or seeking data from oracles, the consumption of Qus is the bedrock of transactions within the system. It's vital to note that QUs, while having a value, are not 'paid' to the system entities ([Computors](/learn/computor)). Instead, they are 'burned' or permanently removed from circulation, contributing to a balance between inflation and deflation in the Qubic economy.
