@@ -171,7 +171,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      mermaid: {
+        theme: {light: 'neutral', dark: 'forest'},
+      },
     }),
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
 };
 
 module.exports = config;
