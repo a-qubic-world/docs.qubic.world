@@ -1,11 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
   //Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
+  link: URL;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -20,6 +22,7 @@ const FeatureList: FeatureItem[] = [
         Explore how Qubic combines the best aspects of existing platforms and eradicates their limitations."
       </>
     ),
+    link: '/learn/overview',
   },
   {
     title: 'Become a Computor',
@@ -33,6 +36,7 @@ const FeatureList: FeatureItem[] = [
         Discover how you can leverage your computing prowess for rewards and play a pivotal role in the Qubic ecosystem.
       </>
     ),
+    link: '/computors/prerequisites',
   },
   {
     title: 'Become an Investor',
@@ -46,21 +50,27 @@ const FeatureList: FeatureItem[] = [
         Learn more about the potential of Qubic and embark on an exciting investment journey.
       </>
     ),
+    link: '/learn/invest',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, link}: FeatureItem) {
   return (
+
     <div className={clsx('col col--4')}>
       {/*
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       */}
+          <Link
+            className={styles.featureLink}
+            to={link}>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
+      </Link>
     </div>
   );
 }
