@@ -1,13 +1,15 @@
 import React from 'react';
 
+import styles from './Card.module.css';
+
 const Card = ({ title, description, imageUrl, href }) => {
   return (
     <a href={href} style={{ textDecoration: 'none', color: 'inherit' }}>
-      <div className="card">
-        <img src={imageUrl} alt={title} />
-        <div className="card-body">
-          <h2 className="card-title">{title}</h2>
-          <p className="card-text">{description}</p>
+      <div className={styles.card}>
+        <img className={styles.cardImage} src={imageUrl} alt={title} />
+        <div className={styles.cardContent}>
+          <h2 className={styles.cardTitle}>{title}</h2>
+          <p className={styles.cardDescription}>{description}</p>
         </div>
       </div>
     </a>
