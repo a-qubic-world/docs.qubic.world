@@ -120,6 +120,7 @@ const sidebars = {
       label: 'Monitoring & Maintenance',
       items: [
         'computors/logging',
+        'computors/commands',
         'computors/backup-restore',
         'computors/upgrading',
       ],
