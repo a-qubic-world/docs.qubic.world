@@ -8,15 +8,20 @@
 | F2  | Prints current tick, transactions and faulty IDs data  |
 | F3  | Shows mining stats, calculates who would be computor as of right now and writes the system file  |
 | F4  | Disconnects all peers (keep pressed) |
-| F6  | Save spectrum file |
+| F5  | "Force next Tick"; Your computor issues empty votes for current tick. (DANGER ZONE)
+| F6  | Save Spectrum, Universe and Computor files |
+| F10 | Resends Computor Votes for current tick (DANGER ZONE) |
+| F11 | Resets test flags |
 | F12 | Switching from MAIN to AUX and vice versa (toggle) |
+| PAUSE | Stopps log output |
 | ESC | Graceful shutdown |
 
-Note used anymore
+
+
+Keys **not** used anymore
 - F7: Toggles logging of network stats
 - F8: Toggles logging of tick/scores stats
 - F9: Toggles logging of tick transactions/tick leader
-- Pause: Toggles logging altogether
 
 <details>
   <summary>Using Scancodes</summary>
