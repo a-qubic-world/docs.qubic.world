@@ -24,9 +24,4 @@ The visual identity of any project, especially a logo, plays a significant role 
 
 Given the potential impact of this work on Qubic's brand identity and visibility, the proposed budget is 5 bln QUs. This accounts for the time and expertise required for each step of the process, as well as potential expenses related to software usage and other resources.
 
-Please note, payment is contingent upon satisfactory delivery of the finalized logo and all related deliverables.
-
-
-## Voting
-
-The final decision on this proposal lies in the hands of the Qubic community. Your vote is not just an approval, it is a testament to your trust and belief in shaping Qubic's visual identity. Let's create a logo that truly represents us all.
+Please note, payment is contingent upon satisfactory delivery of the finalized logo and all related deliverables. Funds will only be relased if the final [Proposal](/learn/proposals) passes the [Quorum](/learn/quorum) voting.
