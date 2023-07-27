@@ -18,7 +18,9 @@
   --ifm-navbar-link-hover-color: #44b9ea; 
   --ifm-menu-color-active: #44b9ea;
   --ifm-link-color: #44b9ea;
+  --code-highlighter-yellow: PaleGreen;
 }
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
@@ -30,4 +32,5 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --code-highlighter-yellow: DarkGreen;
 }
