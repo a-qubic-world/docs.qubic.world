@@ -8,7 +8,7 @@ Innovative and efficient development is at the heart of Qubic's technology. It's
 
 Meanwhile, skilled marketers help us convey the potential and value of Qubic to a wider audience, ensuring that our community continues to grow and that the network's benefits reach as many people as possible.
 
-Take a look at our current draft proposals and start contributing your unique skills to this innovative ecosystem. Remember, when you deliver quality work, the quorum can vote on the proposal and release the QUs you've earned. This ensures that your hard work and dedication are recognized and rewarded.
+Take a look at our current community bounties and start contributing your unique skills to this innovative ecosystem. Remember, when you deliver quality work, the quorum can vote on the final proposal and release the QUs you've earned. This ensures that your hard work and dedication are recognized and rewarded.
 
 Whether you're coding the next big smart contract or helping to spread the word about Qubic, your contributions shape our collective future. Let's make a difference together in the Qubic ecosystem.
 

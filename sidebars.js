@@ -131,7 +131,7 @@ const sidebars = {
     'developers/contribute',
     {
       type: 'category',
-      label: 'Draft Proposals',
+      label: 'Community Bounties',
       items: [
         'developers/draft/logo',
       ],

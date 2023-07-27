@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Logo Design'
+sidebar_label: 'Q005 Logo Design'
 ---
 
-# Project Proposal: Logo Design for Qubic
+# Community Bounty Q005: Logo Design for Qubic
 
 **Proposed by:** Zoxx
 
