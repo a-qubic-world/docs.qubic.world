@@ -1,7 +1,9 @@
 # Logging (Draft)
 
+## Startup Information
+
 <pre>
-230726121457 A- 000:000(000).0.0 Qubic 1.156.0 is launched.{'\n'}
+230726121457 A- 000:000(000).0.0 <span style={{backgroundColor: 'Khaki'}}>Qubic 1.156.0</span> is launched.{'\n'}
 230726121457 A- 000:000(000).0.0 Theoretical TSC frequency = n/a.{'\n'}
 230726121457 A- 000:000(000).0.0 Practical TSC frequency = 4'192'091'411 Hz.{'\n'}
 230726121457 A- 000:000(000).0.0 Volume #0 (): 13'946'601'472 / 21'464'301'568 free bytes | Read-Write.{'\n'}
@@ -23,15 +25,21 @@
 230726121512 A- 000:000(000).7100000.67 11 | Tick = 0.0 s | Indices = ?.{'\n'}
 </pre>
 
+- <span style={{backgroundColor: 'Khaki'}}>Current protocol version</span>: ...
+
+## Recurring logging
+
 <pre>
-230726122051 B- <span style={{backgroundColor: 'yellow'}}>000</span>:000(000).7100027.67 0/0 next tick transactions are known. 59 pending transactions.{'\n'}
+230726122051 B- <span style={{backgroundColor: 'PaleGreen'}}>000</span>:<span style={{backgroundColor: 'Salmon'}}>000</span>(<span style={{backgroundColor: 'violet'}}>000</span>).7100027.67 0/0 next tick transactions are known. 59 pending transactions.{'\n'}
 230726122051 B- 000:000(000).7100027.67 0 (0) :: 0 (0) | Average processing time = 87 microseconds.{'\n'}
 230726122051 B- 000:000(000).7100027.67 Ticker loop duration = 4 microseconds. Latest created tick = 7'100'026.{'\n'}
 230726122052 B- 000:000(000).7100027.67 [+26 -0 *129 /38] 55|29 30/39 Dynamic (+44'252 -145'608 ...129'180).{'\n'}
 230726122052 B- 000:000(000).7100027.67 11 | Tick = 7.4 s | Indices = AX[in 24 ticks]+BS[45]+DE[83].{'\n'}
 </pre>
 
-<span style={{backgroundColor: 'yellow'}}>Votes on the left: </span>
+- <span style={{backgroundColor: 'PaleGreen'}}>Votes on the left: </span> ...
+- <span style={{backgroundColor: 'Salmon'}}>Votes on the right: </span> ...
+- <span style={{backgroundColor: 'violet'}}>...: </span> ...
 
 <pre>
 230726122059 B- 000:000(000).7100028.67 0 (0) :: 0 (0) | Average processing time = 85 microseconds.{'\n'}
