@@ -47,6 +47,7 @@ const sidebars = {
       type: 'category',
       label: 'Governance',
       items: [
+        'learn/governance',
         'learn/quorum',
         'learn/arbitrator',
         'learn/proposals',
@@ -81,6 +82,7 @@ const sidebars = {
         'learn/invest',
         'learn/wallets',
         'learn/exchanges',
+        'learn/qx',
       ],
     },
     'learn/use-cases',
