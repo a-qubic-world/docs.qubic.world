@@ -12,6 +12,17 @@ Qx is currently in development and more information will be provided once it's r
 
 :::
 
+## Qx in a Nutshell
+Qx (what shareholders will "own") is a [smart contract](/learn/smart-contracts), which will be used to trade anything on the Qubic network (comparing this to a commodity exchange as well as crypto dex):
+- QU
+- QU/BTC
+- shares
+Qx will (most likely) not be the only trading platform, the only access restriction is the [Quorum](/learn/quorum), which takes the decision if a certain smart contract is allowed on the platform or not (though, it might have big advantage due to being first mover).
+There is no frontend for trading or the ability to exercise voting rights included by default. The community will come up with such solutions.
+
+
+## Qx Fees
+
 The operation of Qx is made possible through a series of service fees. Here is a brief explanation of each:
 
 1. **Execution Fee:** The computors individually set this fee. The quorum's decision is then applied, similar to how the original revenue algorithm worked.
