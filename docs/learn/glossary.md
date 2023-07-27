@@ -6,38 +6,45 @@ sidebar_label: 'Glossary'
 
 The following terms are used throughout the Qubic documentation and development ecosystem.
 
-## QU
-QUs or Qubic Units is the native token and positioned as equivalent of "energy" units spent to run smart-contract and access other services in Qubic (e.g. donations to oracles). Yes, QUs can be used as money, but they are more than that. Transfers are feeless and notion of "fee" for smart contracts doesn't make much sense, because qus are destroyed, not given to computors. When one asks an oracle he "burns" QUs as a sacrifice, not as a payment, it's not even guaranteed that the oracle will answer. 
-
-## Epoch
-A one-week time period from Wednesday 12 UTC to Wednesday 12 UTC during which 1 trillion QUs are generated.
-
-## Spectrum
-Qubic's equivalent of a ledger
-
-## Identity
-Qubic's equivalent of an address
-
-## Energy
-The amount of QUs per identity on the Spectrum instead of (similar to "balance").
-
-## Quorum
-A quorum is the minimum number of computors necessary to conduct any sort of business. In qubic the [Quorum](/learn/quorum) is ⅔ (or 451) of all Computors to reach consensus.
+## Arbitrator
+An entity within the Qubic ecosystem responsible for resolving disputes and protecting user interests. The [Arbitrator](/learn/arbitrator) sets parameters of the mining algorithm, publishes lists of computors every epoch, is developing the capacity to replace faulty computors, and accumulates QUs not received by underperforming computors. Each node operator individually selects their arbitrator by setting the corresponding ID in Qubic.cpp. The entity controlling the current arbitrator remains unknown, though rumors suggest it's operated by the development team.
 
 ## Computor
 [Computors](/learn/computor) refer to the machines or nodes that participate in the network's consensus protocol and perform computation tasks. They are a critical component of the Qubic network, responsible for executing transactions on the Spectrum and running smart contracts.
 
-## Arbitrator
-An entity within the Qubic ecosystem responsible for resolving disputes and protecting user interests. The arbitrator sets parameters of the mining algorithm, publishes lists of computors every epoch, is developing the capacity to replace faulty computors, and accumulates QUs not received by underperforming computors. Each node operator individually selects their arbitrator by setting the corresponding ID in Qubic.cpp. The entity controlling the current arbitrator remains unknown, though rumors suggest it's operated by the development team.
+## Computor Controlled Fund (CCF)
+The Computor Controlled Fund is a community-driven funding mechanism designed to support the development and growth of the Qubic ecosystem. It is used to finance approved projects that contribute to expanding the capabilities, reach or efficiency of the Qubic network. Projects are proposed by community members and selected through a voting process. The CCF enables the quick definition of project packages and efficient allocation of budgets. The aim of the CCF is to empower the community to collaboratively decide on and prioritize the network's development directions.
 
-## Useful Proof of Work (UPoW)
-A novel consensus mechanism that optimizes the energy expended in mining processes by directing computational power towards valuable, real-world tasks, such as training artificial intelligence models. Unlike traditional Proof of Work systems that "waste" energy by solving abstract puzzles, [UPoW](/learn/upow) contributes to meaningful applications.
+## Energy
+The amount of QUs per identity on the Spectrum (similar to "balance").
+
+## Epoch
+A one-week time period from Wednesday 12 UTC to Wednesday 12 UTC during which 1 trillion QUs are generated.
+
+## Identity
+Qubic's equivalent of an address
 
 ## Oracles
 A feature in development for Qubic. In blockchain technology, oracles are third-party services that provide smart contracts with external information, enabling them to interact with the outside world.
 
+## QU
+QUs or [Qubic Units](/learn/tokenomics) is the native token and positioned as equivalent of "energy" units spent to run smart-contract and access other services in Qubic (e.g. donations to oracles). Yes, QUs can be used as money, but they are more than that. Transfers are feeless and notion of "fee" for smart contracts doesn't make much sense, because qus are destroyed, not given to computors. When one asks an oracle he "burns" QUs as a sacrifice, not as a payment, it's not even guaranteed that the oracle will answer. 
+
+## Quorum
+A quorum is the minimum number of computors necessary to conduct any sort of business. In Qubic the [Quorum](/learn/quorum) is ⅔ (or 451) of all Computors to reach consensus.
+
 ## Smart Contracts
-Self-executing contracts with the terms of the agreement directly written into code. Qubic's first smart contract was an Initial Public Offering (IPO) of 676 shares for a decentralized exchange (DEX) named Qx.
+Self-executing contracts with the terms of the agreement directly written into code. Qubic's first [smart contract](/learn/smart-contracts) was an Initial Public Offering ([IPO](/learn/ipo)) of 676 shares for a decentralized exchange (DEX) named [Qx](/learn/qx).
+
+## Spectrum
+Qubic's equivalent of a ledger. In the [Spectrum](/learn/spectrum) the energy (i.e. QUs) per Identity is stored. Qubic itself doesn not keep track of transactions.
+
+## Ticks
+In the Qubic ecosystem, the tick is the interval within which the Quorum commes to an agreement on transactions and the outcome computed smart contracts. A single tick can last a very short interval of time (below 1 second).
+
+## Useful Proof of Work (UPoW)
+A novel consensus mechanism that optimizes the energy expended in mining processes by directing computational power towards valuable, real-world tasks, such as training artificial intelligence models. Unlike traditional Proof of Work systems that "waste" energy by solving abstract puzzles, [UPoW](/learn/upow) contributes to meaningful applications.
+
 
 \_
 
