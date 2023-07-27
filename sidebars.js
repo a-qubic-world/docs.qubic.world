@@ -128,6 +128,21 @@ const sidebars = {
   ],
   devSidebar: [
     'developers/intro',
+    'developers/contribute',
+    {
+      type: 'category',
+      label: 'Draft Proposals',
+      items: [
+        'developers/draft/logo',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Implemented Proposals',
+      items: [
+        'developers/empty',
+      ],
+    },
     {
       type: 'category',
       label: 'Tutorials',
@@ -135,6 +150,7 @@ const sidebars = {
         'developers/environment',
       ],
     },
+    'developers/bug-bounty',
   ],
   apiSidebar: [
     {

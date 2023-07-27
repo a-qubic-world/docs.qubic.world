@@ -1,3 +1,3 @@
-# Become a developer
+# Qubic environment
 
-How to
+TBD
