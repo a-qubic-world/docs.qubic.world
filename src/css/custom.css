@@ -34,3 +34,24 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --code-highlighter-yellow: DarkGreen;
 }
+
+.hero {
+  background-image: url("/static/img/qubic_background.png");
+}
+
+.hero__title {
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+}
+
+[data-theme='dark'] .hero__title {
+  color: #FFFFFF;
+}
+
+
+.hero__subtitle {
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+}
+
+[data-theme='dark'] .hero__subtitle {
+  color: #FFFFFF;
+}
