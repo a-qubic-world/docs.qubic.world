@@ -73,6 +73,7 @@ const sidebars = {
         'learn/smart-contracts',
         'learn/ipo',
         'learn/dutch-auction',
+        'learn/aigarth',
       ],
     },
     {

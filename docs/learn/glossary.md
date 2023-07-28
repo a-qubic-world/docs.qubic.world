@@ -6,6 +6,9 @@ sidebar_label: 'Glossary'
 
 The following terms are used throughout the Qubic documentation and development ecosystem.
 
+## Aigarth
+Aigarth is an AI-oriented project that will run on the Qubic network, which aims to utilize unused computational power for solving AI-related tasks. Its primary function is to run a special algorithm that allows for the evolution of solutions based on Helix logic gates. This process is transparent, with progress points available to all participants, promoting a collective push towards efficient solutions.
+
 ## Arbitrator
 An entity within the Qubic ecosystem responsible for resolving disputes and protecting user interests. The [Arbitrator](/learn/arbitrator) sets parameters of the mining algorithm, publishes lists of computors every epoch, is developing the capacity to replace faulty computors, and accumulates QUs not received by underperforming computors. Each node operator individually selects their arbitrator by setting the corresponding ID in Qubic.cpp. The entity controlling the current arbitrator remains unknown, though rumors suggest it's operated by the development team.
 
