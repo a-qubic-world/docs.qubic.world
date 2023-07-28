@@ -11,10 +11,21 @@ In many cases, a quorum is required for decisions to be made or votes to be take
 
 For example, if the bylaws of a club state that a quorum is a majority of its members, then at least half of the members would need to be present at a meeting for any official business to take place.
 
-## Qubic Quorum
-In Qubic the Quorum are 451 [Computors](/learn/computor) Votes. Any decision that have to be made by the Quorum means that you need at least 451 Votes from [Computors](/learn/computor).
+## The Qubic Quorum
+In Qubic the Quorum is more than just a simple majority — it's a dynamic assembly of 451 [Computors](/learn/computor) Votes. Any decision that have to be made by the Quorum means that you need at least 451 Votes from Computors. This assembly of Computors is at the heart of decision-making processes within the Qubic system.
 
-The Quorum is used to:
+The Computors form a democratic ecosystem, with each having an equal vote. The aim is to decentralize power and promote a healthy competition for the system's best interests. This unique form of [Governance](/learn/governance) separates the roles of Computors and [Arbitrator](/learn/arbitrator), ensuring that no single entity can control both.
 
-- Form/Create Ticks (Blocks)
-- Create/Vote/Accept Polls
+## Quorum Functions
+The Quorum in the Qubic system fulfills key functions:
+
+- Forming and Creating Ticks (Blocks)
+- Proposing, Voting for and Accepting Polls
+
+These functions allow for a dynamic, community-oriented, and consensus-driven ecosystem that is key to the operations of the Qubic network.
+
+
+## Quorum Voting on Proposals
+When it comes to voting, a decision is considered valid when it has received the approval of at least 451 Computors. The [Proposal](/learn/proposal) with the most votes wins, fostering a system of majority rule.
+
+This requires a broad consensus and encourages active participation from Computors in order to make impactful decisions. In scenarios where there are two decision proposals, the winning option must secure at least 50% of the votes (or at least 1/3 of all Computors, if only ⅔ are participating). In scenarios where there are multiple options, the winning proposal is chosen by the most votes — still provided that at least 451 Computors have cast a vote.
