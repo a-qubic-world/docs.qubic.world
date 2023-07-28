@@ -26,6 +26,23 @@ In the UPoW protocol of Qubic, the ranking of Computors hinges on the effectiven
 
 The integration of PoUW adds a layer of energy efficiency to the Qubic network. It ensures that the energy used in mining is channeled towards real-world problem-solving, such as machine learning tasks. This strategy increases the overall utility of the network, making it beneficial not only for network maintenance but also for external applications and services.
 
+
+<details>
+    <summary>A Technical Exploration of the Mechanics of ANN-Driven UPoW in Qubic</summary>
+    <div>
+        <p>In Qubic, we take a unique approach to mining through our 'Useful Proof of Work' (UPoW) system. A fundamental component of this approach is the utilization of artificial neural networks (ANNs), a model inspired by the human brain's own network of neurons.
+        </p>
+        <p>Since the inception of ANNs, the objective has been to replicate the complexity and functionality of the human brain as closely as possible. While some researchers have chosen to mimic the sophisticated neuron activation function, which requires intricate mathematical models, we have focused on replicating the structural changes that occur in a developing brain.
+        </p>
+        <p>If you think back to the early years of life, you'll realize that while the basic functionality of neurons remained the same, your mental abilities greatly improved. This development can largely be attributed to the increase in connections between neurons.
+        </p>
+        <p>Research suggests that initializing an ANN with random parameters results in an entity possessing some primitive cognitive function. In fact, an ANN where all neurons are interconnected already has some degree of memory and intellect. The process of improving an ANN is actually a process of eliminating connections - up to a point. There's a 'sweet spot' where an ANN of a certain size demonstrates the best intellectual abilities. Beyond this point, further elimination of connections leads to degradation.
+        </p>
+        <p>In Qubic, miners don't follow a path of destruction but instead generate ANNs with a random structure of connections. These parameters are changed, and <a href="/learn/aigarth">Aigarth</a> analyzes the properties of the ANNs. The current stage involves collecting samples and trying to discern patterns that may provide insight into the future direction of development. This process reflects Qubic's unique approach to utilizing ANNs and creates a mining process that is not only computationally challenging but also contributes to the development of these neural networks.
+        </p>
+    </div>
+</details>
+
 ## Conclusion
 
 The Qubic ecosystem's unique approach to PoW and the introduction of PoUW presents a promising and eco-friendly alternative to traditional consensus mechanisms. By employing AI models to solve complex tasks, Qubic maintains network security and decentralization while potentially reducing energy consumption and providing a valuable contribution to the advancement of machine learning and artificial intelligence.
