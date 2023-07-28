@@ -25,3 +25,10 @@ The visual identity of any project, especially a logo, plays a significant role 
 Given the potential impact of this work on Qubic's brand identity and visibility, the proposed budget is 5 bln QUs. This accounts for the time and expertise required for each step of the process, as well as potential expenses related to software usage and other resources.
 
 Please note, payment is contingent upon satisfactory delivery of the finalized logo and all related deliverables. Funds will only be relased if the final [Proposal](/learn/proposals) passes the [Quorum](/learn/quorum) voting.
+
+:::note
+## Intellectual Property and Open Source Requirement
+As a part of this bounty, the final design and all its associated materials should be provided as open-source. The designer will transfer all intellectual property rights to the Qubic community upon completion and approval of the project. The design must not include any copyrighted material unless expressly allowed for such usage.
+
+This open-source approach will ensure that the Qubic logo can be freely used, modified, and shared by the community, in line with our ethos of transparency and collaboration.
+:::
