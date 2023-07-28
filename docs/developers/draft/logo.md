@@ -4,7 +4,7 @@ sidebar_label: 'Q005 Logo Design'
 
 # Community Bounty Q005: Logo Design for Qubic
 
-**Proposed by:** Zoxx
+**Proposed by:** Zoxx, crypdro, J0ET0M, CRYPTOisNOW, Pomm3sgab3l, frog-rabbit
 
 **Estimated Completion Time:** 1 Month
 
@@ -21,10 +21,9 @@ The visual identity of any project, especially a logo, plays a significant role 
 5. **Revision:** Should the need arise, one round of revision will be provided based on the community's feedback.
 
 ## Compensation
+The potential impact of this work on Qubic's brand identity and visibility is considerable. Please note, the actual compensation for this project is not predetermined. Rather, it will be determined by the Qubic [Quorum](/learn/quorum) voting process upon satisfactory delivery of the finalized logo and all related deliverables. The Quorum will evaluate the completed work and vote on the amount of QUs to be rewarded based on its perceived value to the community. This approach ensures a fair compensation reflective of the community's appreciation and value perception.
 
-Given the potential impact of this work on Qubic's brand identity and visibility, the proposed budget is 5 bln QUs. This accounts for the time and expertise required for each step of the process, as well as potential expenses related to software usage and other resources.
-
-Please note, payment is contingent upon satisfactory delivery of the finalized logo and all related deliverables. Funds will only be relased if the final [Proposal](/learn/proposals) passes the [Quorum](/learn/quorum) voting.
+This approach keeps the focus on the Quorum's decision-making process and the value it places on the completed work, rather than a pre-defined budget.
 
 :::note
 ## Intellectual Property and Open Source Requirement
