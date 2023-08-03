@@ -11,7 +11,7 @@ At its core, Qubic is powered by 676 [Computors](/learn/computor) responsible fo
 
 In addition to Computors, Qubic features Candidates, who contribute to AI training without receiving compensation. A weekly ranking, or "epoch," determines the top 451 performing Computors, who maintain their status while the remaining spots are filled from the pool of Candidates and lower-ranking Computors.
 
-Each epoch generates 1 trillion [Qubic units](/learn/tokenomics) (QUs or qunits) to be distributed primarily among Computors. Inefficient Computors and Miners have a portion of their rewards burned, while the remainder goes to the Administrator. Notably, the Administrator's role is limited to managing AI training tasks and has no influence over smart contracts, voting, or qus distribution.
+Each epoch generates 1 trillion [Qubic Units](/learn/tokenomics) (QUs) to be distributed primarily among Computors. Inefficient Computors and Miners have a portion of their rewards burned, while the remainder goes to the [Arbitrator](/learn/arbitrator). Notably, the Arbitrator's role is limited to managing AI training tasks and has no influence over smart contracts, voting, or qus distribution.
 
 Qubic sets itself apart with feeless transfers, a rarity among crypto platforms. While executing smart contracts typically incurs a commission, Computors vote by quorum to set the commission size, which is then burned to regulate inflation and deflation.
 
