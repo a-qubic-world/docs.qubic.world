@@ -64,3 +64,5 @@ Keys **not** used anymore
 ## F2
 The F2 shows the relevant info as `X/Y/Z solutions.` where Z is total number of solutions, Y is number of published solutions and X is number of recorded into the blockchain solutions.
 
+## F5
+The F5 command helps maintain synchronization in the Qubic network. If not all 676 Computors are online, votes about the status of the next tick can become split, leading to a consensus issue. Pressing F5 forces agreement that the next tick is empty. However, it carries a risk: if others reach a different consensus after you've hit F5, your node could become misaligned.
