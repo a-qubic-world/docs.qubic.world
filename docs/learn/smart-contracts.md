@@ -21,3 +21,11 @@ For example, the first smart contract burned over 10.18 trillion QUs, which was 
 Qubic's approach to smart contracts opens a world of possibilities for automated, decentralized applications (dApps). By utilizing the powerful and efficient Qubic blockchain along with the versatility of smart contracts, developers have an unprecedented level of flexibility and security for creating innovative dApps.
 
 Developers are already building on the potential of smart contracts in Qubic, with many exciting developments on the horizon. As the ecosystem continues to evolve, the use of smart contracts in Qubic will undoubtedly become even more integral and diverse.
+
+
+aus den faq:
+Smart Contracts (SC) on Qubic are truly remarkable as they harness the power of Qubic Units (QUs) as "energy" to facilitate contract execution. Unlike traditional Smart Contracts, Qubic SCs are frictionless and highly scalable, effectively reducing inflation by "burning" the QUs used in their execution. Additionally, Qubic SCs have the extraordinary ability to incorporate real-world data through Qubic's oracles, significantly enhancing their utility and applicability.
+
+A fascinating aspect is that the execution of SCs consumes QUs, yet remains free for users as the SC self-finances through funds collected during its Initial Coin Offering. However, SCs also have the option to request QUs from users for their services, offering a dynamic and flexible approach to their functionality.
+
+In summary, Qubic revolutionizes the concept of Smart Contracts with these innovative features, making them more efficient and adaptable to real-world needs. By allowing integration of external data sources, Qubic SCs open up new possibilities for decentralized applications, bringing us closer to a future with improved efficiency and seamless interactions on the blockchain.

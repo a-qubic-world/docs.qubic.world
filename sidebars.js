@@ -38,9 +38,8 @@ const sidebars = {
       label: 'Basics',
       items: [
         'learn/tokenomics',
-        'learn/computor', 
+        'learn/nodes', 
         'learn/spectrum',
-        'learn/cryptography',
       ],
     },
     {
@@ -103,6 +102,7 @@ const sidebars = {
       type: 'category',
       label: 'Getting Started',
       items: [
+        'computors/challenges',
         'computors/prerequisites',
         'computors/installation',
         'computors/configuration',

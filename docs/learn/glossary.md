@@ -13,7 +13,7 @@ Aigarth is an AI-oriented project that will run on the Qubic network, which aims
 An entity within the Qubic ecosystem responsible for resolving disputes and protecting user interests. The [Arbitrator](/learn/arbitrator) sets parameters of the mining algorithm, publishes lists of computors every epoch, is developing the capacity to replace faulty computors, and accumulates QUs not received by underperforming computors. Each node operator individually selects their arbitrator by setting the corresponding ID in Qubic.cpp. The entity controlling the current arbitrator remains unknown, though rumors suggest it's operated by the development team.
 
 ## Computor
-[Computors](/learn/computor) refer to the machines or nodes that participate in the network's consensus protocol and perform computation tasks. They are a critical component of the Qubic network, responsible for executing transactions on the Spectrum and running smart contracts.
+[Computors](/learn/nodes) refer to the machines or nodes that participate in the network's consensus protocol and perform computation tasks. They are a critical component of the Qubic network, responsible for executing transactions on the Spectrum and running smart contracts.
 
 ## Computor Controlled Fund (CCF)
 The Computor Controlled Fund is a community-driven funding mechanism designed to support the development and growth of the Qubic ecosystem. It is used to finance approved projects that contribute to expanding the capabilities, reach or efficiency of the Qubic network. Projects are proposed by community members and selected through a voting process. The CCF enables the quick definition of project packages and efficient allocation of budgets. The aim of the CCF is to empower the community to collaboratively decide on and prioritize the network's development directions.
@@ -26,6 +26,9 @@ A one-week time period from Wednesday 12 UTC to Wednesday 12 UTC during which 1 
 
 ## Identity
 Qubic's equivalent of an address
+
+## Miners
+Miners in Qubic are essential for supporting Computors. Miners acquire problems or tasks from Computors. Upon finding a solution to these tasks for a given qubic ID, miners transmit their results back to the Computors. This continuous exchange of tasks and solutions is pivotal for determining scores for each ID during an epoch. High scores are instrumental for a Computor to retain its position amidst the top 676 Computors.
 
 ## Oracles
 A feature in development for Qubic. In blockchain technology, oracles are third-party services that provide smart contracts with external information, enabling them to interact with the outside world.
