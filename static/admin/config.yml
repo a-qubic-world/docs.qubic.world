@@ -35,6 +35,9 @@ collections:
   name: docs
   folder: docs
   create: true
+  nested:
+    depth: 100 # max depth to show in the collection tree
+    summary: '{{title}}'
   fields:
     - {label: "Title", name: "title", widget: "string"}
     - {label: "Publish Date", name: "date", widget: "datetime"}
