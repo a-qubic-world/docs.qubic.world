@@ -10,9 +10,6 @@ dependencies:
   '@docusaurus/theme-mermaid':
     specifier: 2.4.0
     version: 2.4.0(@types/node@18.15.11)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.9.1)(typescript@4.7.4)
-  '@docusaurus/types':
-    specifier: ^2.4.1
-    version: 2.4.1(react-dom@17.0.2)(react@17.0.2)
   '@mdx-js/react':
     specifier: ^1.6.22
     version: 1.6.22(react@17.0.2)
@@ -36,6 +33,9 @@ devDependencies:
   '@docusaurus/module-type-aliases':
     specifier: 2.4.0
     version: 2.4.0(react-dom@17.0.2)(react@17.0.2)
+  '@docusaurus/types':
+    specifier: ^2.4.1
+    version: 2.4.1(react-dom@17.0.2)(react@17.0.2)
   '@tsconfig/docusaurus':
     specifier: ^1.0.5
     version: 1.0.5
@@ -2482,7 +2482,6 @@ packages:
       - esbuild
       - uglify-js
       - webpack-cli
-    dev: false
 
   /@docusaurus/utils-common@2.4.0(@docusaurus/types@2.4.0):
     resolution: {integrity: sha512-zIMf10xuKxddYfLg5cS19x44zud/E9I7lj3+0bv8UIs0aahpErfNrGhijEfJpAfikhQ8tL3m35nH3hJ3sOG82A==}
