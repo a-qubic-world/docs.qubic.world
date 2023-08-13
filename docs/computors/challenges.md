@@ -1,5 +1,7 @@
 ---
-sidebar_label: 'Challenges'
+sidebar_label: Challenges
+title: "Running a Computor in the Qubic Network: The Challenges"
+date: 2023-08-13T22:19:54.311Z
 ---
 
 # Running a Computor in the Qubic Network: The Challenges
