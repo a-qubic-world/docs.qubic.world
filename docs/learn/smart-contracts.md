@@ -1,31 +1,40 @@
-# Smart Contracts (Draft)
+# Smart Contracts 
 
-Smart Contracts are self-executing agreements coded onto the blockchain. These agreements execute when the conditions written into the code are met. They're one of the most powerful features of blockchain technology, and Qubic implements them in a uniquely efficient and secure way.
+Smart Contracts are blockchain-based, self-acting protocols that activate when specified code criteria are met. Among the myriad of blockchain applications, Smart Contracts emerge as a game-changer. Qubic enhances this game, pioneering an innovative approach to Smart Contracts, merging efficiency with security.
 
-## How Smart Contracts Work in Qubic
+## How Qubic's Smart Contracts Operate
+Qubic's Smart Contracts revolve around public functions encapsulated in the contract's source code. These functions receive a C++ struct as input and emit another C++ struct as output. To trigger a function (which necessitates client software), a transaction is made with the `destinationPublicKey` associated with the contract index.
 
-Qubic's smart contracts are based on public functions from the contract source code. Each function accepts a C++ struct as input and returns another C++ struct as output. The invocation of a function by users (requiring client software) is essentially a transaction with the `destinationPublicKey` set to the contract index.
-
-The `inputType` of the transaction is set to the index of the called function, and `inputSize` is set to `sizeof(inputStruct)`. The `amount` can be non-zero to simultaneously transfer qus when a smart contract function is called, and the amount is deducted from `sourcePublicKey` only if the function is called.
-
+<details>
+  <summary>Some more geeky details</summary>
+  <div>
+  <p>
+The `inputType` of the transaction is set to the index of the called function, and `inputSize` is set to `sizeof(inputStruct)`. The `amount` can be non-zero to simultaneously transfer qus when a smart contract function is called, and the amount is deducted from `sourcePublicKey` only if the function is called.</p>
+<p>
 Data from the input struct are injected between `inputSize` and the signature. If not enough data are supplied, the remaining portion is filled with zeros. If the data exceed the actual input data, then the input is truncated.
+    </p>
 
-## Examples of Smart Contracts in Qubic
-
-The first smart contract in Qubic was an Initial Public Offering (IPO) of 676 shares of a decentralized exchange (DEX) named QX. Smart contracts are also used for burning QUs as part of transaction fees, similar to the gas model in Ethereum. 
-
-For example, the first smart contract burned over 10.18 trillion QUs, which was about 15% of the total supply at that moment. This action shows the deflationary potential of QUs through the use of smart contracts and the Qubic chain.
-
-## Future of Smart Contracts in Qubic
-
-Qubic's approach to smart contracts opens a world of possibilities for automated, decentralized applications (dApps). By utilizing the powerful and efficient Qubic blockchain along with the versatility of smart contracts, developers have an unprecedented level of flexibility and security for creating innovative dApps.
-
-Developers are already building on the potential of smart contracts in Qubic, with many exciting developments on the horizon. As the ecosystem continues to evolve, the use of smart contracts in Qubic will undoubtedly become even more integral and diverse.
+  </div>
+</details>
 
 
-aus den faq:
-Smart Contracts (SC) on Qubic are truly remarkable as they harness the power of Qubic Units (QUs) as "energy" to facilitate contract execution. Unlike traditional Smart Contracts, Qubic SCs are frictionless and highly scalable, effectively reducing inflation by "burning" the QUs used in their execution. Additionally, Qubic SCs have the extraordinary ability to incorporate real-world data through Qubic's oracles, significantly enhancing their utility and applicability.
+## Proposal and IPO Process
+Before a Smart Contract's integration:
 
-A fascinating aspect is that the execution of SCs consumes QUs, yet remains free for users as the SC self-finances through funds collected during its Initial Coin Offering. However, SCs also have the option to request QUs from users for their services, offering a dynamic and flexible approach to their functionality.
+- It must undergo a [proposal](/learn/proposals) voting by the quorum. Specifically, ⅔ of the 676 computors need to participate in the voting, with a majority required for contract acceptance.
+- The shares associated with the Smart Contract undergo an [IPO](/learn/ipo) using a [Dutch auction](/learn/dutch-auction) model.
+Spotlight on Qubic's Smart Contracts
+Qubic launched its journey with an IPO of 676 shares for a decentralized exchange termed [Qx](/blog/qx_auction). Also, Smart Contracts enable QUs burning for transaction costs, reminiscent of Ethereum's gas model. An instance saw the first Smart Contract obliterate over 10.18 trillion QUs — roughly 15% of the total available then. This signifies the deflationary nature of QUs via Smart Contracts on Qubic.
 
-In summary, Qubic revolutionizes the concept of Smart Contracts with these innovative features, making them more efficient and adaptable to real-world needs. By allowing integration of external data sources, Qubic SCs open up new possibilities for decentralized applications, bringing us closer to a future with improved efficiency and seamless interactions on the blockchain.
+## Distinguishing Features
+Key highlights include:
+
+- Use of Qubic Units (QUs) as "energy", making contracts frictionless and expansive.
+- Deflationary by design, with QUs used during execution being "burned".
+- Integration capability with real-world data using Qubic's oracles.
+- While QUs are used in Smart Contract execution, it remains cost-free for users due to self-financing from its IPO. However, there's flexibility, as contracts can charge users QUs for specialized services.
+
+## The Road Ahead
+With the robust Qubic blockchain combined with the adaptability of Smart Contracts, developers are armed with an unparalleled toolkit. As the Qubic framework grows, its Smart Contracts are set to diversify and expand their influence.
+
+In summation, Qubic rejuvenates the Smart Contract landscape, intensifying efficiency and making them apt for real-world applications. By merging external data, it broadens dApp possibilities, guiding us towards a future of unmatched blockchain interactions.
