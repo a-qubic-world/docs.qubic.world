@@ -12,6 +12,9 @@ Aigarth is an AI-oriented project that will run on the Qubic network, which aims
 ## Arbitrator
 An entity within the Qubic ecosystem responsible for resolving disputes and protecting user interests. The [Arbitrator](/learn/arbitrator) sets parameters of the mining algorithm, publishes lists of computors every epoch, is developing the capacity to replace faulty computors, and accumulates QUs not received by underperforming computors. Each node operator individually selects their arbitrator by setting the corresponding ID in Qubic.cpp. The entity controlling the current arbitrator remains unknown, though rumors suggest it's operated by the development team.
 
+## Candidate
+A Candidate is a node that runs the [Computors](/learn/nodes) software but hasn't yet achieved the status of a Computor. In each epoch, up to 256 candidates can ascend to Computor status if they rank among the top 676 nodes based on their score. It's important to note that only Computors with a full week's status receive Qubic Units (QUs) as rewards for their performance. While Candidates don't earn any QUs, running as a Candidate is essential for pushing solutions to the blockchain, which is a prerequisite for becoming a Computor.
+
 ## Computor
 [Computors](/learn/nodes) refer to the machines or nodes that participate in the network's consensus protocol and perform computation tasks. They are a critical component of the Qubic network, responsible for executing transactions on the Spectrum and running smart contracts.
 
