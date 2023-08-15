@@ -1,8 +1,3 @@
----
-title: Bare Metal
-date: 2023-08-13T19:58:21.745Z
----
-
 # Bare Metal (BM)
 
 :::info
