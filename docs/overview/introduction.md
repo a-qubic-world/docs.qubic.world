@@ -1,9 +1,16 @@
 ---
 sidebar_label: 'What is Qubic?'
 sidebar_position: 1
+title: 'What is Qubic?'
 ---
 
 # Introducing Qubic: The Future of Crypto Platforms
+
+:::info
+
+The Qubic documentation is currently in public preview and may change significantly as feedback is captured from readers like you. Join the Qubic [Discord](https://discord.gg/2vDMR8m) to share your feedback in the #docs channel.
+
+:::
 
 Get ready to dive into Qubic, an innovative crypto platform that's changing the game. Founded by Sergey Ivancheglo, the mastermind behind IOTA and NXT, Qubic is revolutionizing the world of cryptocurrency with its quorum-based computer (QBC) system.
 
