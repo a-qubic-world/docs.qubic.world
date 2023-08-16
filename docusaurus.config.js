@@ -147,7 +147,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/qubic_world',
+                href: 'https://twitter.com/qubic_network',
               },
             ],
           },
