@@ -18,7 +18,11 @@
   --ifm-navbar-link-hover-color: #44b9ea; 
   --ifm-menu-color-active: #44b9ea;
   --ifm-link-color: #44b9ea;
-  --code-highlighter-yellow: PaleGreen;
+  --code-highlighter-green: #98fb98;
+  --code-highlighter-yellow: #fffdd0;
+  --code-highlighter-red: #FF69B4;
+  --code-highlighter-blue: #40e0d0;
+
 }
 
 
@@ -32,7 +36,10 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --code-highlighter-yellow: DarkGreen;
+  --code-highlighter-green: #006400;
+  --code-highlighter-yellow: #FFA500;
+  --code-highlighter-red: #FF6961;
+  --code-highlighter-blue: #0D98BA;
 }
 
 .hero {

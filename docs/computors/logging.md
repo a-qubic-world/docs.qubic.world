@@ -25,21 +25,37 @@
 230726121512 A- 000:000(000).7100000.67 11 | Tick = 0.0 s | Indices = ?.{'\n'}
 </pre>
 
-- <span style={{backgroundColor: 'var(--code-highlighter-yellow)'}}>Current protocol version</span>: ...
+- <span style={{backgroundColor: 'var(--code-highlighter-yellow)'}}>Current protocol version</span>
 
-## Recurring logging
+## Votes
 
 <pre>
-230726122051 B- <span style={{backgroundColor: 'PaleGreen'}}>000</span>:<span style={{backgroundColor: 'Salmon'}}>000</span>(<span style={{backgroundColor: 'violet'}}>000</span>).7100027.67 0/0 next tick transactions are known. 59 pending transactions.{'\n'}
-230726122051 B- 000:000(000).7100027.67 0 (0) :: 0 (0) | Average processing time = 87 microseconds.{'\n'}
-230726122051 B- 000:000(000).7100027.67 Ticker loop duration = 4 microseconds. Latest created tick = 7'100'026.{'\n'}
-230726122052 B- 000:000(000).7100027.67 [+26 -0 *129 /38] 55|29 30/39 Dynamic (+44'252 -145'608 ...129'180).{'\n'}
+230726122051 B- <span style={{backgroundColor: 'var(--code-highlighter-green)'}}>000</span>:<span style={{backgroundColor: 'var(--code-highlighter-red)'}}>000</span>(<span style={{backgroundColor: 'var(--code-highlighter-blue)'}}>000</span>).7100027.67 0/0 next tick transactions are known. 59 pending transactions.{'\n'}
+</pre>
+
+- <span style={{backgroundColor: 'var(--code-highlighter-green)'}}>Aligned Votes (votes on the left)</span>: These computors have the same data for the tick and are potentially aligned with tick leaders view. To proceed to next tick quorum (451+) must be aligned.
+- <span style={{backgroundColor: 'var(--code-highlighter-red)'}}>Misaligned votes (votes on the right)</span>: computors can have different view, meaning they are misalgined if they do not agree with majority.
+- <span style={{backgroundColor: 'var(--code-highlighter-blue)'}}>Computors ahead of your computor</span> 
+
+
+## Connections
+<pre>
+230726122052 B- 000:000(000).7100027.67 [+26 -0 *129 /38] <span style={{backgroundColor: 'var(--code-highlighter-yellow)'}}>52</span>|<span style={{backgroundColor: 'var(--code-highlighter-red)'}}>12</span> 30/39 Dynamic (+44'252 -145'608 ...129'180).{'\n'}
 230726122052 B- 000:000(000).7100027.67 11 | Tick = 7.4 s | Indices = AX[in 24 ticks]+BS[45]+DE[83].{'\n'}
 </pre>
 
-- <span style={{backgroundColor: 'PaleGreen'}}>Aligned Votes (votes on the left)</span>: These computors have the same data for the tick and are potentially aligned with tick leaders view. To proceed to next tick quorum (451+) must be aligned.
-- <span style={{backgroundColor: 'Salmon'}}>Misaligned votes (votes on the right)</span>: computors can have different view, meaning they are misalgined if they do not agree with majority.
-- <span style={{backgroundColor: 'violet'}}>Computors ahead of your computor</span> 
+- <span style={{backgroundColor: 'var(--code-highlighter-yellow)'}}>Not connected slots</span>
+- <span style={{backgroundColor: 'var(--code-highlighter-red)'}}>Connected slots</span>
+
+Default config is 64 connections overall (60 incoming, 4 outgoing). 
+
+## Tick durations
+<pre>
+230726122051 B- 000:000(000).7100027.67 0 (0) :: 0 (0) | Average processing time = 87 microseconds.{'\n'}
+230726122051 B- 000:000(000).7100027.67 Ticker loop duration = 4 microseconds. Latest created tick = 7'100'026.{'\n'}
+</pre>
+
+## To be continued...
 
 <pre>
 230726122059 B- 000:000(000).7100028.67 0 (0) :: 0 (0) | Average processing time = 85 microseconds.{'\n'}
