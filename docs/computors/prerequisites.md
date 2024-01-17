@@ -6,15 +6,17 @@ Becoming a Computor on the Qubic platform involves a range of prerequisites rela
 
 * Processor (CPU): The processor's speed directly impacts the computational power of a Computor. More powerful processors can handle complex calculations more efficiently. Specific CPU requirements are:
 
-    * CPU Frequency: _____
+    * CPU Frequency: **4.2 GHz**
+
+ Recommended CPU (as of Q1 2024): **AMD Ryzen 9 7950X3D**
 
 * Memory (RAM): Adequate memory is crucial for smoothly running operations. More RAM allows a Computor to process larger amounts of data simultaneously. Specific RAM requirements are:
 
-    *RAM Size: _____
+    * RAM Size: **128 GB** (will likely rise to 192GB in Q2 2024)
 
-* Storage: Storage requirements relate to the disk space needed to store the network's Spectrum, smart contracts, and other necessary data. Specific storage requirements are:
+* Storage: Storage requirements relate to the disk space needed to store the network's Spectrum, smart contracts, and other necessary data. Basically, you need a bit more space on the disk than you need RAM in order to write all data from the RAM back to the disk at the end of each epoch. Recommended storage requirements are:
 
-    * Storage Size: _____
+    * Storage Size: **256 GB NVMe**
 
 # Software Requirements:
 
@@ -26,8 +28,8 @@ Becoming a Computor on the Qubic platform involves a range of prerequisites rela
 
 Internet Connection: An efficient and reliable internet connection is essential for participating in the Qubic network. This allows for swift interaction with other Computors and timely execution of tasks. Specific network speed requirements are:
 
-* Network Speed: _____
+* Network Speed: **1 Gbit/s ** (download/upload)
 
-* Network Compatibility: Your system must be compatible with the Qubic network and meet certain technical standards. This ensures that your system can communicate effectively with other nodes within the network.
+* Network Compatibility: Your system must be compatible with the Qubic network and meet certain technical standards. This ensures that your system can communicate effectively with other nodes within the network. Most important, you need a port forwarding in your router to **port 21841** of your Computor node.
 
 Please note that these requirements may vary based on the needs and updates of the Qubic platform. Meeting these prerequisites will help you perform effectively as a Computor within the network.
