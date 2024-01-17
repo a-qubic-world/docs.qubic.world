@@ -132,6 +132,29 @@ const sidebars = {
     'developers/contribute',
     {
       type: 'category',
+      label: 'Core Concepts',
+      items: [
+        'developers/qubic-id',
+        'developers/transactions',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Advanced Concepts',
+      items: [
+        'developers/oracles',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Clients',
+      items: [
+        'api/rpc',
+        'developers/rust-api'
+      ],
+    },
+    {
+      type: 'category',
       label: 'Community Bounties',
       items: [
         'developers/draft/logo',
@@ -158,7 +181,7 @@ const sidebars = {
       type: 'category',
       label: 'Core API',
       items: [
-        'api/blocks',
+        'api/rpc',
         'api/transactions',
       ],
     },

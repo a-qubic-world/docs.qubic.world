@@ -130,7 +130,7 @@ const config = {
               },
               {
                 label: 'API',
-                to: '/api/blocks',
+                to: '/api/rpc',
               },
             ],
           },
