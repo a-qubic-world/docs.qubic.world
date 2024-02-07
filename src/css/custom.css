@@ -15,20 +15,22 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-navbar-link-hover-color: #44b9ea; 
-  --ifm-menu-color-active: #44b9ea;
-  --ifm-link-color: #44b9ea;
+  --ifm-navbar-link-hover-color: #1ADEF5; 
+  --ifm-menu-color-active: #1ADEF5;
+  --ifm-link-color: #1ADEF5;
   --code-highlighter-green: #98fb98;
   --code-highlighter-yellow: #fffdd0;
   --code-highlighter-red: #FF69B4;
   --code-highlighter-blue: #40e0d0;
-
+  --ifm-font-family-base: "PP Telegraf Regular", "PP Telegraf Regular Placeholder", sans-serif;
+  --ifm-font-color-base: rgba(38, 38, 42, .65);
+  --ifm-heading-color: #000;
 }
 
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* For readability concerns, please should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #44b9ea; /* #25c2a0; */ /* #0F172A; qli blue */
+  --ifm-color-primary: #1ADEF5;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -39,7 +41,10 @@
   --code-highlighter-green: #006400;
   --code-highlighter-yellow: #FFA500;
   --code-highlighter-red: #FF6961;
-  --code-highlighter-blue: #0D98BA;
+  --code-highlighter-blue: #1ADEF5;
+  --ifm-font-family-base: "PP Telegraf Regular", "PP Telegraf Regular Placeholder", sans-serif;
+  --ifm-font-color-base: #BDBFC6;
+  --ifm-heading-color: #FFF;
 }
 
 .hero {
@@ -48,6 +53,7 @@
 
 .hero__title {
   background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+  color: #FFF;
 }
 
 [data-theme='dark'] .hero__title {

@@ -57,13 +57,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/qubic-li-cube.svg',
+      image: 'img/qubic-docs-logo-lightmode.svg',
       navbar: {
-        title: 'Qubic Documentation',
+        title: '',
         logo: {
           alt: 'Qubic Logo',
-          src: 'img/qubic-li-cube.svg',
+          src: 'img/qubic-docs-logo-lightmode.svg',
+          srcDark: 'img/qubic-docs-logo-darkmode.svg',
         },
         items: [
           {
