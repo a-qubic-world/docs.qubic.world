@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Qubic Docs',
   tagline: 'Learn everything about Qubic you need to know.',
-  favicon: 'img/qubic-li-cube.ico',
+  favicon: 'img/qubic.ico',
 
   // Set the production url of your site here
   url: 'https://docs.qubic.world',
