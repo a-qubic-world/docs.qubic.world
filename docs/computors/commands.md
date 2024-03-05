@@ -13,7 +13,7 @@
 | F10 | Resends Computor Votes for current tick (DANGER ZONE) |
 | F11 | Resets test flags |
 | F12 | Switching from MAIN to AUX and vice versa (toggle) |
-| PAUSE | Stopps log output |
+| PAUSE | Stops log output |
 | ESC | Graceful shutdown |
 
 
